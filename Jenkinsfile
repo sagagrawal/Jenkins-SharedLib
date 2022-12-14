@@ -6,7 +6,7 @@ pipeline {
         stage('Windows Stage'){
             steps{
                 script{
-                  sampleFolder.sample()
+                  sample()
                   osPlatform.windows()
                 }
             }
