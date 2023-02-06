@@ -1,5 +1,6 @@
-def windows() {
+def windows(def param) {
     println('Inside windows method')
+    println(param)
 }
 
 def linux() {
