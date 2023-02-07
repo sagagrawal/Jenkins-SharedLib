@@ -6,8 +6,8 @@ pipeline {
         stage('Windows Stage'){
             steps{
                 script{
-                  sample()
-                  osPlatform.windows()
+                  //sample()
+                  osPlatform.windows("demoParamPassed)
                 }
             }
         }
