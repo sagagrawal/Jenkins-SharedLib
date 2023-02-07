@@ -7,7 +7,7 @@ pipeline {
             steps{
                 script{
                   //sample()
-                  osPlatform.windows("demoParamPassed)
+                  osPlatform.windows("demoParamPassed")
                 }
             }
         }
