@@ -1,4 +1,4 @@
-def windows(def param) {
+def windows(String param) {
     println('Inside windows method')
     println(param)
 }
